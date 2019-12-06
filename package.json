@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/aindriu80/NatoursAPI2019#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.1"
   }
 }
