@@ -17,6 +17,7 @@ mongoose
   //.connect(process.env.DATABASE.LOCAL,{)
   .connect(DB, {
     useNewUrlParser: true,
+    useUnifiedTopology: true,
     useCreateIndex: true,
     useFindAndModify: false
   })
