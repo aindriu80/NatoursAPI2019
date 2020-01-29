@@ -1,3 +1,4 @@
+const { promisify } = require('util');
 const jwt = require('jsonwebtoken');
 const User = require('./../models/userModel');
 const catchAsync = require('./../utils/catchAsync');
@@ -51,7 +52,7 @@ exports.login = catchAsync(async (req, res, next) => {
   });
 });
 
-exports.protect = catchAsync((req, res, next) => {
+exports.protect = catchAsync(async (req, res, next) => {
   // 1) Getting token and check if it's there
   let token;
   if (
@@ -60,7 +61,7 @@ exports.protect = catchAsync((req, res, next) => {
   ) {
     token = req.headers.authorization.split(' ')[1];
   }
-  console.log(token);
+  // console.log(token);
 
   if (!token) {
     return next(
@@ -68,6 +69,8 @@ exports.protect = catchAsync((req, res, next) => {
     );
   }
   // 2) Need to validate token
+  const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
+  console.log(decoded);
 
   // 3) Check if user still exists
 
