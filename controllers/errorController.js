@@ -5,7 +5,7 @@ const handleCastErrorDB = err => {
   return new AppError(message, 400);
 };
 
-const handlerDuplicateFieldsDB = err => {
+const handleDuplicateFieldsDB = err => {
   // const value = err.errmsg.match(/(["'])(\\?.)*?\1/)[0];
   const value = err.errmsg.match(/["'])(?:(?=(\\?))\2.)*?\1/)[0];
   console.log(value);
