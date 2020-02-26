@@ -2,7 +2,7 @@ const User = require('./../models/userModel');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/appError');
 const factory = require('./handlerFactory');
-const Review = require('./../models/reviewModel');
+//const Review = require('./../models/reviewModel');
 
 const filterObj = (obj, ...allowedFields) => {
   const newObj = {};
@@ -12,6 +12,10 @@ const filterObj = (obj, ...allowedFields) => {
   return newObj;
 };
 
+exports.getMe = (req, res, next) => {
+  req.params.id = req.user.id;
+  next();
+};
 // 2: Filtered out unwanted fields names that are not allowed to be updated
 exports.updateMe = catchAsync(async (req, res, next) => {
   // 1) Create error f user POSTs password data
