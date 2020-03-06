@@ -99,3 +99,5 @@ reviewSchema.post(/^findOneAnd/, async function() {
 
 const Review = mongoose.model('Review', reviewSchema);
 module.exports = Review;
+// API published on Postman ->
+// https://documenter.getpostman.com/view/665847/SzRw3rSx?version=latest#9c23db23-737e-4151-baf9-aafda159ecc8
