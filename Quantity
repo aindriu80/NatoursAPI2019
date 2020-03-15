@@ -1,0 +1,570 @@
+[33mcommit d4182b366b15540783ecbe824200f2d0f262171b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Mar 13 21:51:47 2020 +0000
+
+    Building the tour overview - 1
+
+[33mcommit 97b3ddaf24231d57f899ab11757904f841826e39[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Mar 12 17:53:06 2020 +0000
+
+    Setting up the Project Structure
+
+[33mcommit fa6df9e11e7e79e59aa576f1feee714de555cc4e[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Mar 11 21:12:49 2020 +0000
+
+    Extending the Base Template with Blocks
+
+[33mcommit c1848e853ac2c7b2fe5022c8c55ea67e9453f149[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Mar 10 21:05:59 2020 +0000
+
+    Including Files into Pug Templates
+
+[33mcommit 9dd014407ae25f776a6ab80c8dc87d19009c40fa[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Mar 9 17:01:57 2020 +0000
+
+    Creatng the base template
+
+[33mcommit 16d4e29db4e5b47a3da590dc2d6adac71c543245[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Mar 8 17:58:28 2020 +0000
+
+    Initial steps with the PUG
+
+[33mcommit 409cf4f0a847507de048ab0d8d1898a33d1a2dcf[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Mar 7 21:12:05 2020 +0000
+
+    Setting up PUG in Express
+
+[33mcommit 46da6418c89c3e81677206e0e6aca9ef76aea6e2[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Mar 6 21:10:59 2020 +0000
+
+    Publishing API documentation
+
+[33mcommit e1c34d5beab0d65402190ce2f613f3541f69062f[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Mar 5 17:14:08 2020 +0000
+
+    Geospatial Aggregation: Calculating Distances
+
+[33mcommit 4a7554f79794bc0fc589405c4e19a612710c00bd[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Mar 4 17:30:20 2020 +0000
+
+    Geospatial Queries: Tours within Radius - the query
+
+[33mcommit 7d6483f3ce49493a135a68f5702afeb5086972ca[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Mar 4 17:09:49 2020 +0000
+
+    Geospatial Queries: Tours within Radius - the route
+
+[33mcommit e69de0a1bff13cd24d07580e1dc71d55d2cfb6c1[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Mar 3 17:46:27 2020 +0000
+
+    Preventing Duplicate Reviews & fixing rounding issue - MongoDB
+
+[33mcommit 581cd6ac5816ac23e15b4b6bbbf59b7c21c21e98[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Mar 2 21:26:05 2020 +0000
+
+    Calculating Average Rating on Tours - 2
+
+[33mcommit 9a0d1be2858b3de967a2948d36411cc26742dc58[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Mar 1 10:29:52 2020 +0000
+
+    Calculating Average Rating on Tours - 1.5
+
+[33mcommit cf0e86a7ccae8277280eaca25e7898974e292fc8[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Feb 29 22:49:48 2020 +0000
+
+    Calculating Average Rating on Tours - 1
+
+[33mcommit b84e511f50843059b9f20eb7f826536216e7ca6c[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Feb 28 21:41:04 2020 +0000
+
+    Improving Read Performance with Indexes
+
+[33mcommit 319848416e64c9afd71b0acff6445526a0a4d2ec[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Feb 27 18:43:42 2020 +0000
+
+    Importing Review and User Data
+
+[33mcommit 6ed19592fbdcf50d46caa23819e9889982769207[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Feb 26 18:40:02 2020 +0000
+
+    Adding Missing Authentication and Authorization
+
+[33mcommit 383783906b378e70da9fe5c04bdcf824dfe155b4[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Feb 26 17:35:01 2020 +0000
+
+    Adding a /me Endpoint
+
+[33mcommit 835095ce19c3be87fd0e36a2b5356aedabe2b4ba[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Feb 25 18:02:01 2020 +0000
+
+    Factory Functions: Reading
+
+[33mcommit 371ae65889984cb3b921f2dfdac03f864055451d[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Feb 24 22:01:27 2020 +0000
+
+    Factory Functions: Update and Create
+
+[33mcommit f871559059d9188a3f33b2a36b02d655d95d3254[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Feb 23 18:26:20 2020 +0000
+
+    Building Handler Factory Functions: Delete
+
+[33mcommit 3724045f095f98d358fa41aeabf193bd5f1fe597[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Feb 22 21:26:52 2020 +0000
+
+    Adding a Nested GET Endpoint
+
+[33mcommit 85ca60aa1a393a149a821a2ea7fd314482b6198e[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Feb 21 21:36:45 2020 +0000
+
+    Nested Routes with Express
+
+[33mcommit a733a32ad02fc1a3b5fbaafadf0f63ab9de868a1[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Feb 20 16:59:19 2020 +0000
+
+    Implementing Simple Nested Routes
+
+[33mcommit 9e36764144b3acae80edacc0dadd3a9506ef86ee[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Feb 19 17:44:14 2020 +0000
+
+    Virtual Populate: Tours and Reviews
+
+[33mcommit 7a070ed2eb7c20d27745595ed8cf060f75f84669[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Feb 18 16:28:09 2020 +0000
+
+    Populating Reviews
+
+[33mcommit bacaa72570f3448641d4b33bd17fefe012abc99c[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Feb 17 17:29:19 2020 +0000
+
+    Creating and Getting Reviews
+
+[33mcommit 5f1f0c98521fa39674e1602ee6a6ecf08f7cd819[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Feb 16 17:51:39 2020 +0000
+
+    Modelling Review: Parent Referencing
+
+[33mcommit 0f09a68e62a416b061ca29b33974122ae64d77ef[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Feb 15 22:00:56 2020 +0000
+
+    Populating Tour Guides
+
+[33mcommit c0d6e96dbdb521c7182e82c8a79fccd235b2dfce[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Feb 14 21:24:15 2020 +0000
+
+    Modelling Tour Guides: Child Referencing
+
+[33mcommit 18ece92c30a2c93cb764c5983ebd381a35a68cf1[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Feb 13 17:54:05 2020 +0000
+
+    Modelling Tour Guides: Enbedding
+
+[33mcommit 6ffb019a0df88b61db848060c3707aa20616623c[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Feb 12 21:10:50 2020 +0000
+
+    Modelling Locations (Geospatial Data)
+
+[33mcommit e0d1fcd0e0c9aa0628a57fd815d47ddaabfac88a[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Feb 11 17:54:31 2020 +0000
+
+    Preventing Parameter Pollution
+
+[33mcommit 87ba4d856228fbf89d7824531e6baa53d3314477[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Feb 10 17:35:17 2020 +0000
+
+    Data Sanitization
+
+[33mcommit b34639e7a89bc8beefe97d4bb4636b368a3f3769[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Feb 9 14:51:24 2020 +0000
+
+    Setting Security HTTP headers
+
+[33mcommit 91a362fecde2fdef3364aff179fd3ac77fd50609[m
+Merge: 0c60f24 058e81e
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Feb 8 22:11:01 2020 +0000
+
+    Merge branch 'master' of https://github.com/aindriu80/NatoursAPI2019
+
+[33mcommit 0c60f244ef980bc793b949c045b5eb10e99f729f[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Feb 8 18:01:11 2020 +0000
+
+    Implementing (API) Rate Limiting
+
+[33mcommit 058e81e37b8778ceba50b1b3432c9248a1799dad[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Feb 8 18:01:11 2020 +0000
+
+    Implementing (API) Rate Limiting
+
+[33mcommit 8d2eecc5f7ca827ae74de9296c840f0b7a96ec69[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Feb 7 17:47:29 2020 +0000
+
+    Sending JWT via Cookie
+
+[33mcommit db002f53120bf5a1eb773f9584f3f963ecc6c00c[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Feb 6 16:50:12 2020 +0000
+
+    Deleting the Current User
+
+[33mcommit 265f54ec4f91d50b0229780d2030f4813de44da1[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Feb 5 16:40:37 2020 +0000
+
+    Updating the Current User - Data
+
+[33mcommit 0e7980ae5dffe6d48d478d2906c212896184e59f[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Feb 4 16:56:12 2020 +0000
+
+    Updating the Current User - Password
+
+[33mcommit 9861d1c0b65c970e2cc38f3b849ab3000d049183[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Feb 3 17:13:19 2020 +0000
+
+    Password Reset Functionality: Setting New Password
+
+[33mcommit b371fbd54d1c0e53143ef4dfc042bb16271588b1[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Feb 2 15:34:04 2020 +0000
+
+    Sending emails with Nodemailer
+
+[33mcommit 709891eb2143dc26dba664dad046f3c07203e83c[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Feb 1 21:42:19 2020 +0000
+
+    Password Reset Functionality - Reset Token
+
+[33mcommit d1e8572d05f53c40e24a8c4b45aa497917d2470f[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Jan 31 21:54:27 2020 +0000
+
+    Authorization: User Roles and Permissions
+
+[33mcommit 6045ce7af6444d02ff5ec625c8e66ecda9dfa9d9[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Jan 30 21:38:49 2020 +0000
+
+    Protecting Tour Routes (2) user exists & pwd changed
+
+[33mcommit df78d85d73022f5cef7ca19feef3aebfc4d25746[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Jan 29 17:53:28 2020 +0000
+
+    Protecting Tour Routes (2) Email Pswd exist
+
+[33mcommit d9274251416448e1ca0db3c0d748a6b8254e5e56[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Jan 28 21:11:09 2020 +0000
+
+    Protecting Tour Routers (1)
+
+[33mcommit f46a25bd65a3d12421f9463b69995083b59e6178[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Jan 27 17:46:04 2020 +0000
+
+    Logging in Users
+
+[33mcommit bb5776a9afd03fa7170017a0125837ce909be931[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Jan 26 18:29:11 2020 +0000
+
+    Server Discovery and Monitoring engine is deprecated
+
+[33mcommit 6a719721bfde0e7679e62cf158552fc1b3be59a7[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Jan 26 18:26:08 2020 +0000
+
+    Signing up Users
+
+[33mcommit 35ab708524d7a49bfa13161857e7f1b97d058fb9[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Jan 25 18:01:53 2020 +0000
+
+    Managing Passwords
+
+[33mcommit 9ea459540ef6cb62b77527679e6db3a0ab697aa1[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Jan 24 22:17:03 2020 +0000
+
+    Code fix & Creating new Users
+
+[33mcommit 91a52b312f106f4d8094e538d0dc1652522b62da[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Jan 23 16:33:55 2020 +0000
+
+    Modelling users
+
+[33mcommit 2f9edea19092da2ae112d59c3de4d4c1e2a86b59[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Jan 22 17:40:10 2020 +0000
+
+    Catching Uncaught Exceptions
+
+[33mcommit 30e3e93a8f4b0760acc5164537b99d81da5e280f[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Jan 22 17:24:43 2020 +0000
+
+    Errors Outside Express: Unhandled Rejections
+
+[33mcommit e6bffc4c50cdc95e89ef3600434eba94886abbcc[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Jan 21 20:38:30 2020 +0000
+
+    Handling Mongoose Validation Errors
+
+[33mcommit 64eb3b6a8a407ced906d90c79ae7b026c7f9595c[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Jan 20 17:55:23 2020 +0000
+
+    Handling duplicate database fields
+
+[33mcommit 216a273ad758a08bdd639bf161d90b709892cf43[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Jan 19 21:02:38 2020 +0000
+
+    Handling Invalid Database IDs
+
+[33mcommit 53087417e7bf9db9674a347e9752354f869aba39[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Jan 18 16:31:08 2020 +0000
+
+    Development vs Production Errors
+
+[33mcommit efec20c140feb4ca10cc44e58957d44995b710a9[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Jan 17 22:40:11 2020 +0000
+
+    Adding 404 Not Found Errors
+
+[33mcommit 8680b4dc515895207f7ffb793eba1d49cbc5fb7e[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Jan 16 16:42:25 2020 +0000
+
+    Catching Errors in Async Functions
+
+[33mcommit 604eb8d67d6118244a6e331fc32b8046ae938796[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Jan 15 17:15:20 2020 +0000
+
+    Better Errors and Refactoring
+
+[33mcommit ed11e48c42040d5ab50b6883e5352d0401e626fd[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Jan 14 21:10:50 2020 +0000
+
+    Implementing a Global Error Handling Middleware
+
+[33mcommit 5fd9bbbe2403e6a33a224adc1f7d901e4ee603d8[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Jan 13 21:16:43 2020 +0000
+
+    Debugging with ndb & handling unhandled routes
+
+[33mcommit 5e9879eeec300e6ea69ab588de69c3059f68fa62[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Jan 12 15:58:24 2020 +0000
+
+    Data Validation: Custom Validators
+
+[33mcommit 1932626e79aaf3452159d4c7f72c8d6071fe90b1[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Jan 12 11:47:59 2020 +0000
+
+    Data Validation: Built in Validators
+
+[33mcommit 5148b6b104454bd947a6f8bc51d3168a8b15d4fe[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Jan 11 15:52:28 2020 +0000
+
+    Aggregation Middleware
+
+[33mcommit d3d7f26618fbdf2c92bafc3917aa2294314fc529[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Jan 11 15:12:07 2020 +0000
+
+    Query Middleware
+
+[33mcommit b1308d2941ec545246da2b28b997c42818d2319c[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Jan 10 22:20:59 2020 +0000
+
+    Document middleware
+
+[33mcommit 27274a807187f29185a35390aa415c39329b8444[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Jan 9 16:55:34 2020 +0000
+
+    Virtual properties
+
+[33mcommit 65edb16216ebff66b171fcf9e81d765d9ecf2193[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Jan 8 17:59:34 2020 +0000
+
+    Aggregation Pipeline: Unwinding and Projecting
+
+[33mcommit 58525d982668763fe5df0acb580f5ac32ce14237[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Jan 7 17:48:48 2020 +0000
+
+    Aggregation Pipeline: Grouping
+
+[33mcommit 110e895e6cbdb51f3fe220b9e88245efcab8c056[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Jan 7 17:39:55 2020 +0000
+
+    Aggregation Pipeline: Matching
+
+[33mcommit 1ce5c84288fb77c166673ac8114d3625c8752d18[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Jan 6 20:40:22 2020 +0000
+
+    Refactoring API Features
+
+[33mcommit 2a23c094a9ad88acdcef17551b6d5c96b7304f3a[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Jan 5 20:54:03 2020 +0000
+
+    Improving the API - Aliasing
+
+[33mcommit 87dd4de524223d43347a63175f64a6ae74d1a571[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Jan 4 14:49:23 2020 +0000
+
+    Improving the API - Pagination
+
+[33mcommit 59cdbe28fd8d988f60b3c82c3f035ab73cbd0da3[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Jan 3 15:57:25 2020 +0000
+
+    Improving the API - Limiting Fields
+
+[33mcommit 4c4494f86e1cb947cdebf9935a3763bf2951fe7d[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Jan 2 11:52:48 2020 +0000
+
+    Improving the API - Sorting
+
+[33mcommit e54751158ed70d11b8e5d49ade4855f0488e58fd[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Jan 1 11:49:19 2020 +0000
+
+    Improving the API - Advanced Filtering
+
+[33mcommit e3b14ecd8dbf5ea3f6704e663260056c97bddac1[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Dec 31 22:23:50 2019 +0000
+
+    Improving the API - Filtering
+
+[33mcommit 32250f746638cac5af80baec32dfa2fddfde8864[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Dec 30 15:43:48 2019 +0000
+
+    Importing development data
+
+[33mcommit f85271c841a6f08ab5f36582939ce3466c9b9817[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Dec 29 21:44:39 2019 +0000
+
+    Modelling the tours
+
+[33mcommit 0de2b526cc876d88db1446085b2c5c6cb334e485[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Dec 29 20:49:58 2019 +0000
+
+    Deleting documents
+
+[33mcommit 18e82623d0b91e8b7f63e7dc171804fe655e87b0[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Dec 28 10:14:19 2019 +0000
+
+    Updating documents
+
+[33mcommit f28eb863b43ea6f154087352f63bfb7d5e65411d[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Fri Dec 27 10:09:59 2019 +0000
+
+    Reading documents
+
+[33mcommit 8563f0e5fb5e37c06c661fd56d7f9e3ae5efe517[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Thu Dec 26 10:32:58 2019 +0000
+
+    Another way to create doucments
+
+[33mcommit 69275e67f32dd9e8895ff850b9556986072d9501[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Dec 25 10:04:24 2019 +0000
+
+    Prettier autofix
+
+[33mcommit 3a8f07711f358fd1948f386ac870e3da9157932f[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Wed Dec 25 10:00:12 2019 +0000
+
+    refactoring for MVC
+
+[33mcommit f715b7ddd211c75f233e5d3d09464cb4beb80884[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Tue Dec 24 09:58:33 2019 +0000
+
+    Creating documents &  testing the model
+
+[33mcommit 62ee728ca08c88b992186f56c2d0f90a68f6dac1[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Mon Dec 23 10:58:12 2019 +0000
+
+    Creating a simple tour model
+
+[33mcommit 45c1e4a4dc8c3cb3319cb26f213b465913bdb308[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sun Dec 22 18:02:28 2019 +0000
+
+    Connecting to MongoDB Atlas
+
+[33mcommit 8f4378668ae4b2dab076f7a327627315bd362fb3[m
+Author: unknown <aindriu80@gmail.com>
+Date:   Sat Dec 21 11:34:37 2019 +0000
+
+    Setting up ESLint + Prettier
