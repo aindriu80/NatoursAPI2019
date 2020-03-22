@@ -41,11 +41,7 @@ exports.getMe = (req, res, next) => {
   req.params.id = req.user.id;
   next();
 };
-// 2: Filtered out unwanted fields names that are not allowed to be updated
 exports.updateMe = catchAsync(async (req, res, next) => {
-  console.log('req.file', req.file);
-  console.log('req.body', req.body);
-
   // 1) Create error f user POSTs password data
   if (req.body.password || req.body.passwordConfirm) {
     return next(
@@ -55,8 +51,12 @@ exports.updateMe = catchAsync(async (req, res, next) => {
       )
     );
   }
-  // 3) Update User document
+
+  // 2: Filtered out unwanted fields names that are not allowed to be updated
   const filteredBody = filterObj(req.body, 'name', 'email');
+  if (req.file) filteredBody.photo = req.file.filename;
+
+  // 3) Update User document
   const updatedUser = await User.findByIdAndUpdate(req.user.id, filteredBody, {
     new: true,
     runValidators: true
