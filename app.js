@@ -69,7 +69,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
-  console.log('hi', req.cookies);
+  // console.log('hi', req.cookies);
   next();
 });
 

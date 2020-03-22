@@ -18,6 +18,9 @@ exports.getMe = (req, res, next) => {
 };
 // 2: Filtered out unwanted fields names that are not allowed to be updated
 exports.updateMe = catchAsync(async (req, res, next) => {
+  console.log('req.file', req.file);
+  console.log('req.body', req.body);
+
   // 1) Create error f user POSTs password data
   if (req.body.password || req.body.passwordConfirm) {
     return next(
