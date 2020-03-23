@@ -1,10 +1,11 @@
+const multer = require('multer');
+const sharp = require('sharp');
 const Tour = require('./../models/tourModel');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/appError');
 // const APIFeatures = require('./../utils/apiFeatures');
 const factory = require('./handlerFactory');
 
-<<<<<<< HEAD
 const multerStorage = multer.memoryStorage();
 
 const multerFlter = (req, file, cb) => {
@@ -58,8 +59,6 @@ exports.resizeTourImages = catchAsync(async (req, res, next) => {
   next();
 });
 
-=======
->>>>>>> parent of f97f95c... Uploading Multiple Images - Tours
 exports.aliasTopTours = (req, res, next) => {
   req.query.limit = '5';
   req.query.sort = '-ratingsAverage,price';
