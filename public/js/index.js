@@ -4,8 +4,9 @@ import { displayMap} from './mapbox';
 import {login, logout} from './login';
 import { updateSettings} from'./updateSettings';
 import { bookTour } from './stripe';
+import { showAlert } from './alerts';
 
-// DOM Elements
+// DOM ELEMENTS
 const mapBox = document.getElementById('map');
 const loginForm = document.querySelector('.form--login');
 const logOutBtn = document.querySelector('.nav__el--logout');
@@ -64,3 +65,5 @@ if (bookBtn)
     const { tourId } = e.target.dataset;
     bookTour(tourId);
   });
+const alertMessage = document.querySelector('body').dataset.alert;
+if (alertMessage) showAlert('success', alertMessage, 20);
